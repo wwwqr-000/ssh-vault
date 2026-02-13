@@ -19,3 +19,7 @@ A vault system using ssh to remotely lock and unlock a folder (with encryption)
 *  Go back to your client, and execute "./lock-vault.sh" and check if it works. If things or dependencies are missing, install them.
 *  To check if it worked, ssh into your target machine again and check if all folders and files inside the target folder (vault) are gone except "data.txt" try to cat data.txt. If it worked, you will see random chars.
 *  Now, go back to your client and try to run "./unlock-vault.sh" and check if the files inside the folder (vault) on the target machine are back to normal.
+
+<h1>Advanced vault</h1>
+
+The advanced lock and unlock files search for the key.key file on a usb-stick using wsl on windows.
