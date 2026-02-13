@@ -3,7 +3,7 @@
 set -e #Enable exit on negative return value of one of the commands
 
 REMOTE_VAULT_DIR="~/vault" #Change this to your target folder to see as the "vault"
-SSH_IDENTITY="small-existor" #Change this to your ssh arguments
+SSH_IDENTITY="root@192.168.0.1" #Change this to your ssh arguments
 
 KEY_DEVICE_LETTER="D" #The disk label of the usb-stick holding the key file
 KEY_FILE="key.key" #The path to the keyfile from the perspective of the usb-stick.
